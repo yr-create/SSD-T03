@@ -2,6 +2,24 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <select id="time">
+        <option value=”2023-01”>2023年1月</option>
+        <option value=”2023-02”>2023年2月</option>
+        <option value=”2023-03”>2023年3月</option>
+        <option value=”2023-04”>2023年4月</option>
+        <option value=”2023-05”>2023年5月</option>
+        <option value=”2023-06”>2023年6月</option>
+    </select>
+    <script>
+        function valueChange(){
+            console.log('新しく ' + time.value + ' を選択しました');
+        }
+        let timeSelect = document.getElementById("time");
+        timeSelect.options[2].selected = true;
+        timeSelect.addEventListener('change', valueChange);
+    </script>
+    <!--<script src ="{% static 'predictapp/pull_down.js'}"></script>-->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

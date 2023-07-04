@@ -28,3 +28,14 @@ window.addEventListener("load", ()=>{
 		.then( data => formatJSON(data));
 
 });
+
+window.addEventListener("click", ()=>{
+	// JSON表示用
+	result = document.getElementById("result");
+
+	// JSONファイルを取得して表示
+	fetch(url)
+		.then( response => response.json())
+		.then( data => formatJSON(data));
+
+});
