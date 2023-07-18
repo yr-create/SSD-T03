@@ -7,6 +7,7 @@
 }
 
 body{
+<<<<<<< HEAD
     margin: auto;
     overflow-x: hidden;
     overflow-y: auto;
@@ -19,29 +20,43 @@ h1{
     font-size: 500%;
     border: solid 3px;
     text-align: center;
+=======
+    margin: 2em;
+>>>>>>> 7878fb4e933db6b56bb7fac4e1b48542aca23c17
 }
 
 #result{
     padding: 1em;
+<<<<<<< HEAD
     background-color: #ffffff;
+=======
+    background-color: whitesmoke;
+>>>>>>> 7878fb4e933db6b56bb7fac4e1b48542aca23c17
     color: black;
     /*color: royalblue;*/
 }
 
 table{
+<<<<<<< HEAD
     margin: auto;
     font-size: 200%;
     font-family:"monospace"; 
     background-color: #dcf764;
+=======
+>>>>>>> 7878fb4e933db6b56bb7fac4e1b48542aca23c17
     border-collapse: collapse;
 }
 
 table, td{
+<<<<<<< HEAD
     margin: auto; 
     width: 1100px;
     height: 70px;
     border: double 5px royalblue;
     
+=======
+    border: solid 1px royalblue;
+>>>>>>> 7878fb4e933db6b56bb7fac4e1b48542aca23c17
 }
 
 td{
@@ -49,6 +64,7 @@ td{
 }
 
 p{
+<<<<<<< HEAD
     font-size: 300%;
     font-family: 'Noto Sans Japaneze';
     margin: auto;
@@ -65,4 +81,8 @@ caption{
 tr{
     margin: auto;
     text-align: center;
+=======
+    margin: auto;
+    padding: 1em;
+>>>>>>> 7878fb4e933db6b56bb7fac4e1b48542aca23c17
 }
