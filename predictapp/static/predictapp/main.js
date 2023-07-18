@@ -1,4 +1,4 @@
-const url = "/static/predictapp/Json/2015-05.json";	// JSONファイル名
+const url = "/static/predictapp/Json/2023-07.json";	// JSONファイル名
 let result;
 
 // JSONファイルを整形して表示する
