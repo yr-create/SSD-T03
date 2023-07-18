@@ -1,0 +1,68 @@
+/* style.css */
+@charset "utf-8";
+
+*{
+    margin: auto;
+    padding: 0;
+}
+
+body{
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+h1{
+    margin: auto;
+    background-color: #9DD1BF;    
+    font-size: 500%;
+    border: solid 3px;
+    text-align: center;
+}
+
+#result{
+    padding: 1em;
+    background-color: #ffffff;
+    color: black;
+    /*color: royalblue;*/
+}
+
+table{
+    margin: auto;
+    font-size: 200%;
+    font-family:"monospace"; 
+    background-color: #dcf764;
+    border-collapse: collapse;
+}
+
+table, td{
+    margin: auto; 
+    width: 1100px;
+    height: 70px;
+    border: double 5px royalblue;
+    
+}
+
+td{
+    padding: 1em;
+}
+
+p{
+    font-size: 300%;
+    font-family: 'Noto Sans Japaneze';
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+}
+
+caption{
+    font-size: 150%;
+    font-family: "M+ 1P";
+    /*text-align: center;*/
+}
+
+tr{
+    margin: auto;
+    text-align: center;
+}
