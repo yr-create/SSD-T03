@@ -6,9 +6,10 @@ function formatJSON(data){
 	// 整形して表示
 	let html = "<table>";
 	html += "<caption>" + data.caption + "</caption>";
-	
+    let number = 1;
 	for(let member of data.members){
-		html += "<tr><td>" + String(member.id) + "</td><td>"+ member.name + "</td><td>" + String(member.sales) + "</td></tr>";
+		html += "<tr><td>" + String(number) + "</td><td>"+ member.name + "</td><td>" + String(member.sales) + "</td></tr>";
+        number++;
 	}
 	html += "</table>";
 
